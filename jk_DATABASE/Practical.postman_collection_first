@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "6a8f1da7-1811-4f78-afb5-c4149600f791",
+		"name": "Practical",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24986537"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/category_store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "jayesh",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "dgfgfgfgfgfg",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Asus/Downloads/SubCategory/1704263826.webp"
+						}
+					]
+				},
+				"url": "http://localhost:8000/api/category_store"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/api/categories"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/category_update/3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "jayesh hhhh",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "wddfdfddf  jjjjj",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Asus/Downloads/SubCategory/1704263826.webp"
+						}
+					]
+				},
+				"url": "http://localhost:8000/api/category_update/3"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/category_delete/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8000/api/category_delete/3"
+			},
+			"response": []
+		}
+	]
+}
